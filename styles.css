@@ -1,0 +1,243 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+	width: 1200px;
+	height: 70px;
+	margin: auto;
+}
+
+.logo {
+	color: #ADD8E6;
+	font-size: 25px;
+	font-family: arial;
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul li {
+	list-style: none;
+	margin-left: 50px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: arial;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+ul li a:hover {
+	color: #ADD8E6;
+}
+
+.srch {
+	width: 200px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid #ADD8E6;
+	margin-top: 13px;
+	color: #fff;
+	border-right: none;
+	font-size: 18px;
+	float: left;
+	padding: 10px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.btn {
+	width: 100px;
+	height: 40px;
+	background: #ADD8E6;
+	border: 2px solid #ADD8E6;
+	margin-top: 13px;
+	color: #fff;
+	font-size: 18px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.srch:focus {
+	outline: none;
+}
+
+.icon {
+	width: 200px;
+	float: left;
+	height: 70px;
+}
+
+.menu {
+	width: 700px;
+	float: right;
+	height: 70px;
+}
+
+.search {
+	width: 300px;
+	float: left;
+	height: 70px;
+}
+
+.content {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: #fff;
+	position: relative;
+}
+
+.content .p {
+	padding-left: 20px;
+	padding-top: 150px;
+	font-family: arial;
+	letter-spacing: 1.2px;
+	line-height: 25px;
+}
+
+.content h1 {
+	font-family: arial;
+	font-size: 50px;
+	padding-left: 20px;
+	padding-top: 30px;
+	letter-spacing: 2px;
+}
+
+.content .cn {
+	width: 200px;
+	height: 40px;
+	background: #ADD8E6;
+	border: none;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-size: 18px;
+	transition: 0.5s;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.content .cn a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.content span {
+	color: #ADD8E6;
+	font-size: 65px;
+}
+
+.card {
+	width: 280px;
+	height: 370px;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+	position: absolute;
+	top: 120px;
+	left: 700px;
+	border-radius: 10px;
+	padding: 25px;
+}
+
+.card h2 {
+	font-family: arial;
+	text-align: center;
+	color: #ADD8E6;
+	font-size: 30px;
+}
+
+.card input {
+	width: 200px;
+	height: 35px;
+	background: transparent;
+	border-bottom: 2px solid #ADD8E6;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 2px;
+	margin-top: 30px;
+	font-family: arial;
+}
+
+.card input:focus {
+	outline: none;
+}
+
+::placeholder {
+	color: #fff;
+	font-family: arial;
+}
+
+.btnn {
+	width: 200px;
+	height: 40px;
+	background: #ADD8E6;
+	border: none;
+	margin-top: 30px;
+	font-size: 18px;
+	transition: 0.5s;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.btnn a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.card .link {
+	font-family: arial;
+	font-size: 17px;
+	padding-top: 20px;
+}
+
+.card .link a {
+	text-decoration: none;
+	color: #ADD8E6;
+}
+
+.liw {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.icons ion-icon {
+	color: #fff;
+	font-size: 30px;
+	padding-top: 10px;
+	padding: 2px;
+}
+
+.icons a {
+	text-decoration: none;
+	color: #fff;
+}
+
+img {
+  padding-top: 50px;
+}
